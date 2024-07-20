@@ -11,7 +11,6 @@
 
 用户可以选择每周的运动强度和方式，小程序内置的 AI 会生成每天的运动安排，包括运动类型、持续时间、消耗卡路里数及相关描述等。
 用户可以根据自身需求手动调整计划，最终确认并设置为个人的运动计划。
-
 ##### 3.运动打卡与荣誉勋章：
 
 每天完成健身计划后进行打卡，记录自己的健身进度。
@@ -41,7 +40,6 @@
 4.打开微信开发者工具，选择项目目录即可
 
 ## 技术栈
-
 - Vue3 
 - Typescript
 - Pinia https://pinia.vuejs.org/zh/
@@ -64,7 +62,6 @@
 - Pinia-plugin-persistedstate 状态持久化插件 https://prazdevs.github.io/pinia-plugin-persistedstate/zh/
 
 ## 项目结构
-
 - .vscode vscode配置
 - dist 打包后的文件
 - node_modules 依赖包

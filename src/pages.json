@@ -1,0 +1,73 @@
+{
+  // 自动引入uni-ui
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+    }
+  },
+  "pages": [ // pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/tabBar/index/index",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "pages/tabBar/fitnessPlan/fitnessPlan",
+      "style": {
+        "navigationBarTitleText": "健身计划"
+      }
+    },
+    {
+      "path": "pages/tabBar/community/community",
+      "style": {
+        "navigationBarTitleText": "社区"
+      }
+    },
+    {
+      "path": "pages/tabBar/personCenter/personCenter",
+      "style": {
+        "navigationBarTitleText": "个人中心"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/tabBar/index/index",
+        "text": "首页",
+        "iconPath": "static/images/logo.png",
+        "selectedIconPath": "static/images/logo.png"
+      },
+      {
+        "pagePath": "pages/tabBar/fitnessPlan/fitnessPlan",
+        "text": "健身计划",
+        "iconPath": "static/images/logo.png",
+        "selectedIconPath": "static/images/logo.png"
+      },
+      {
+        "pagePath": "pages/tabBar/community/community",
+        "text": "社区",
+        "iconPath": "static/images/logo.png",
+        "selectedIconPath": "static/images/logo.png"
+      },
+      {
+        "pagePath": "pages/tabBar/personCenter/personCenter",
+        "text": "个人中心",
+        "iconPath": "static/images/logo.png",
+        "selectedIconPath": "static/images/logo.png"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  }
+}
